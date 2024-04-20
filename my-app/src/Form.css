@@ -1,0 +1,50 @@
+input {
+    width: 90%;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: #333;
+}
+button {
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #F7C566;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 95%;
+    border-radius: 10px;
+}
+button:hover {
+    transition: 0.5s linear;
+    background-color: #0C2D57;
+    color: white;
+}
+.disabled {
+    background: gray !important;
+    color: #333 !important;
+}
+
+#modal {
+    position: absolute;
+    background: rgba(0,0,0,0.55);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#modal-content {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    top: 51%;
+    Right: 5%;
+    transform: translateY(-50%);
+}
